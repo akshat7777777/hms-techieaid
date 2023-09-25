@@ -1,0 +1,92 @@
+/* Global styles */
+body {
+    font-family: 'Montserrat', sans-serif; /* Consider using a different font for a fresh look */
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered section titles */
+.section-title {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 28px; /* Slightly increase the font size */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Pricing table styles */
+.pricing .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.2); /* Adjust background opacity for a subtle effect */
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    margin: 20px;
+    max-width: 300px;
+    padding: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Dark background style */
+.bg-dark {
+    background: linear-gradient(45deg, #ea2608, #2e1e1e);
+    color: #fff;
+    padding: 40px;
+}
+
+/* Label styles */
+label {
+    color: #00c4ff; /* Adjust label color for contrast */
+    font-size: 20px; /* Increase label font size for emphasis */
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/* Input styles */
+.form-group input, select {
+    width: 100%;
+    padding: 14px; /* Increase padding for better touch interaction */
+    margin-bottom: 20px;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    font-size: 18px; /* Increase input font size */
+    transition: background 0.3s ease-in-out;
+}
+
+.form-group input:focus, select:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.3); /* Adjust background opacity on focus */
+}
+
+/* Button styles */
+#btn {
+    background: linear-gradient(45deg, #00c4ff, #0072b0); /* Enhance button color */
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px; /* Increase button font size */
+    padding: 16px 32px; /* Adjust padding for a larger button */
+    transition: background 0.3s ease-in-out;
+    text-transform: uppercase;
+}
+
+#btn:hover {
+    background: linear-gradient(45deg, #0072b0, #00c4ff); /* Add hover effect */
+}
